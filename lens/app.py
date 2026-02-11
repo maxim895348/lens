@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import io
 from typing import Dict, List, Tuple, Optional
 import re
-from fuzzywuzzy import fuzz
+from rapidfuzz import fuzz
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 import warnings
